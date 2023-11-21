@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <section>
+           <form action="">
+            <label for="" >Username:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+            <label for="">E-mail:</label>
+            <input type="text" id="email" placeholder="SeuEmail@email.com" required>
+
+            <label for="">Senha:</label>
+            <input type="password" id="senha1" placeholder="Digite sua senha" minlength="8" maxlength="8" required>
+            <label for="">Confirmação de senha:</label>
+            <input type="password" id="senha2" placeholder="Digite novamente sua senha" minlength="8" maxlength="8" required>
+
+            <button type="submit" class="button" onclick="validacao()">Cadastrar</button>
+            <button id="bdark" onclick="darkMode()">Modo Escuro</button>
+           </form>
+     </section>
+    <script src="./app.js"></script>
+</body>
+</html>

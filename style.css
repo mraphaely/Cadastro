@@ -1,0 +1,49 @@
+body{
+    background-color: ghostwhite;
+    transition: background-color 1s, color 1s;
+}
+section{
+    border: 28px;
+    border-color: ghostwhite;
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: rgba(137, 43, 226, 0.699);
+    border-radius: 18px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    color: ghostwhite;
+}
+input{
+    margin-bottom: 10px;
+}
+.button{
+    background-color: green;
+    color: ghostwhite;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: ghostwhite;
+
+    
+        
+        font-size: 28px;
+        margin-left: 51px;
+        margin-right: 51px;
+}
+#bdark{
+    background-color:rgba(137, 43, 226, 0.699);
+    border-color: ghostwhite;
+    border-radius: 10px;
+    margin-top: 18px;
+    color: #FFF;
+        font-size: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+}
+.dark-mode{
+    background-color: rgb(2, 7, 31);
+    color: #FFF;
+}
